@@ -1,7 +1,7 @@
 # Otaku Oracle
 
 ## Description
-**Otaku Oracle** is a fun and interactive Sinatra-based web application that fetches and displays random anime quotes using the [Animechan API](https://animechan.xyz/). Get inspired, amused, or intrigued by quotes from your favorite anime characters! The application is designed with a clean and visually appealing interface to enhance the user experience.
+**Otaku Oracle** is a fun and interactive Sinatra-based web application that fetches and displays random anime quotes using the [Animechan API](https://animechan.io/api/v1/quotes/random). Get inspired, amused, or intrigued by quotes from your favorite anime characters! The application is designed with a clean and visually appealing interface to enhance the user experience.
 
 ---
 
@@ -65,6 +65,7 @@ https://animechan.io/api/v1/quotes/random
 ```
 
 If the API request fails, the application will display a fallback message to the user.
+Since the free tier of API is used for this project, the endpoint has a default Rate Limit of 20 requests per hour only.
 
 ---
 
